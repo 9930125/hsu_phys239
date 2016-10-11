@@ -29,9 +29,10 @@ def _cs( od, n, D):
     return float( od / n / D );
 
 print "  "
-print ' The cross section for optical depth', od1, 'is', _cs(od1, n, D), 'cm^(-2).'
-print ' The cross section for optical depth', od2, 'is', _cs(od2, n, D), 'cm^(-2).'
-print ' The cross section for optical depth', od3, 'is', _cs(od3, n, D), 'cm^(-2).'
+print 'The cross sections:' 
+print 'For optical depth', od1, ':', _cs(od1, n, D), 'cm^(-2).'
+print 'For optical depth', od2, ':', _cs(od2, n, D), 'cm^(-2).'
+print 'For optical depth', od3, ':', _cs(od3, n, D), 'cm^(-2).'
 print "  "
 
 #########################
