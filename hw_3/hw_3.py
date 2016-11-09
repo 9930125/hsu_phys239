@@ -183,8 +183,8 @@ bv = [np.log10(min(v0s)),np.log10(max(v0s)),np.log10(min(bs)),np.log10(max(bs))]
       
 plt.figure()
 plt.title('Peak Frequencies',size=20)
-plt.xlabel(r'Initial Velocities $v_{0}$ $log_{v_{0}}$ ($m/s$)',size=14)
-plt.ylabel(r'Impact Parameters b $log_{b}$ ($m$)',size=14)
+plt.xlabel(r'Initial Velocities $v_{0}$ $log{v_{0}}$ ($m/s$)',size=14)
+plt.ylabel(r'Impact Parameters b $log{b}$ ($m$)',size=14)
 plt.imshow(np.log10(fmax),origin='lower',extent=bv,aspect="auto")
 plt.colorbar()
 
